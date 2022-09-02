@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title class="TTT">Chez La Menu</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- Create A Restaurant Site -[HTML,CSS,JS]
+Create the Following Objects:
+
+MENU [Brunch, Lunch, Dinner,Desert, Beverages Entrees,Appetizers]
+- Each menu item(OBJECT) must have MINIMUM 6 items with at least 4attributes/properties.. -->
+
+<body>
+
+    <!-- background image -->
+
+    <!-- title / menu heading -->
+    <div class="wholeNav">
+        <div class="menuHeading">
+            <h1 class="rainbow"> CAFE CHEZ LA REMY</h1>
+
+        </div>
+        <div class="navContainer">
+            <a href="#brunch" class="nav">Brunch</a>
+            <a href="#lunch" class="nav">Lunch</a>
+            <a href="#dinner" class="nav">Dinner</a>
+            <a href="#desert" class="nav">Desert</a>
+            <a href="#entrees" class="nav">Entrees</a>
+            <a href="#appetizers" class="nav">Appetizers</a>
+        </div>
+    </div>
+    <div class="frame">
+        <div class="contentBox">
+            <div class="menuBigBox">
+                <!-- menu 1 : BRUNCH -->
+                <div class="menuBox" id="brunch">
+                    <h2 class="menu">BRUNCH</h2>
+                    <ul>
+                        <ol class="menuItem">- Eggs Benidict -
+                            <li class="menuProperty">Small: $5</li>
+                            <li class="menuProperty">Medium: $8</li>
+                            <li class="menuProperty">Large: $11</li>
+                            <li class="menuProperty">Extra_egg: $2</li>
+                        </ol>
+                        <br>
+                        <ol class="menuItem"> Muffin
+                            <li class="menuProperty">Corn: $7</li>
+                            <li class="menuProperty">Blueberry: $8</li>
+                            <li class="menuProperty">Chocolate: $11</li>
+                            <li class="menuProperty">Gluten Free: $20</li>
+                        </ol>
+                        <br>
+                        <ol class="menuItem"> Omlette
+                            <li class="menuProperty">Cheese: $12</li>
+                            <li class="menuProperty">Western: $12</li>
+                            <li class="menuProperty">Meaty: $12</li>
+                            <li class="menuProperty">Veggy: $20</li>
+                        </ol>
+                        <br>
+                        <ol class="menuItem"> French Toast
+                            <li class="menuProperty">Plain: $8</li>
+                            <li class="menuProperty">W/Berries: $19</li>
+                            <li class="menuProperty">W/Whipped Cream: $12</li>
+                            <li class="menuProperty">W/Veggies: $20</li>
+                        </ol>
+                        <br>
+                        <ol class="menuItem"> Breakfast Burrito
+                            <li class="menuProperty">Cheese: $12</li>
+                            <li class="menuProperty">Western: $13</li>
+                            <li class="menuProperty">Meaty: $14</li>
+                            <li class="menuProperty">Veggy: $25</li>
+                        </ol>
+                        <br>
+                        <ol class="menuItem"> Pancakes
+                            <li class="menuProperty">Plain: $8</li>
+                            <li class="menuProperty">W/Berries: $19</li>
+                            <li class="menuProperty">W/Whipped Cream: $12</li>
+                            <li class="menuProperty">W/Chocolate: $20</li>
+                        </ol>
+                    </ul>
+                </div>
+                <!-- menu 2 : LUNCH -->
+                <div class="menuBox" id="lunch">
+                    <h2 class="menu">LUNCH</h2>
+                    <ul>
+                        <ol class="menuItem">- Burger -
+                            <li class="menuProperty">Plain $5</li>
+                            <li class="menuProperty">California: $8</li>
+                            <li class="menuProperty">Mexican: $11</li>
+                            <li class="menuProperty">Classic Cheese: $12</li>
+                        </ol>
+                        <br>
+                        <ol class="menuItem"> Chicken Burger
+                            <li class="menuProperty">Corn: $7</li>
+                            <li class="menuProperty">Western: $18</li>
+                            <li class="menuProperty">Bacon Cheese: $11</li>
+                            <li class="menuProperty">Elvis: $20</li>
+                        </ol>
+                        <br>
+                        <ol class="menuItem"> Salad
+                            <li class="menuProperty">Plain: $7</li>
+                            <li class="menuProperty">Western: $18</li>
+                            <li class="menuProperty">Bacon Cheese: $11</li>
+                            <li class="menuProperty">California: $20</li>
+                        </ol>
+                        <br>
+                        <ol class="menuItem"> Tacos
+                            <li class="menuProperty">Corn: $7</li>
+                            <li class="menuProperty">Western: $18</li>
+                            <li class="menuProperty">Bacon Cheese: $11</li>
+                            <li class="menuProperty">Elvis: $20</li>
+                        </ol>
+                        <br>
+                        <ol class="menuItem"> Sushi
+                            <li class="menuProperty">Chicken: $7</li>
+                            <li class="menuProperty">Beef: $18</li>
+                            <li class="menuProperty">Pork: $11</li>
+                            <li class="menuProperty">Shrimp: $20</li>
+                        </ol>
+                        <br>
+                        <ol class="menuItem"> Chicken Wings
+                            <li class="menuProperty">Lemon Pepper: $7</li>
+                            <li class="menuProperty">BBQ: $18</li>
+                            <li class="menuProperty">Spicy: $11</li>
+                            <li class="menuProperty">Fire: $20</li>
+                        </ol>
+                        <br>
+                    </ul>
+                </div>
+                <!-- menu 3 : DINNER -->
+                <div class="menuBox" id="dinner">
+                    <h2 class="menu">DINNER</h2>
+                    <ul>
+                        <ol class="menuItem"> Steak
+                            <li class="menuProperty">Small: $50</li>
+                            <li class="menuProperty">Medium: $80</li>
+                            <li class="menuProperty">Large: $110</li>
+                            <li class="menuProperty">Extra_egg: $200</li>
+                        </ol>
+                        <br>
+                        <ol class="menuItem"> Pasta
+                            <li class="menuProperty">Tomato: $7</li>
+                            <li class="menuProperty">Cheesy: $8</li>
+                            <li class="menuProperty">Bolonaze: $11</li>
+                            <li class="menuProperty">Aribatta: $20</li>
+                        </ol>
+                        <br>
+                        <ol class="menuItem"> Soup
+                            <li class="menuProperty">Tomato: $7</li>
+                            <li class="menuProperty">Chicken Noodle: $28</li>
+                            <li class="menuProperty">Matzoball: $21</li>
+                            <li class="menuProperty">gaspacho: $10</li>
+                        </ol>
+                        <br>
+                        <ol class="menuItem"> chicken
+                            <li class="menuProperty">fried: $7</li>
+                            <li class="menuProperty">baked: $8</li>
+                            <li class="menuProperty">grilled: $11</li>
+                            <li class="menuProperty">boiled: $20</li>
+                        </ol>
+                        <br>
+                        <ol class="menuItem"> Blooming Onion
+                            <li class="menuProperty">Tomato: $7</li>
+                            <li class="menuProperty">Cheesy: $8</li>
+                            <li class="menuProperty">Bolonaze: $11</li>
+                            <li class="menuProperty">Aribatta: $20</li>
+                        </ol>
+                        <br>
+                        <ol class="menuItem"> Lobster
+                            <li class="menuProperty">Small: $Seasonal</li>
+                            <li class="menuProperty">Medium: $Seasonal</li>
+                            <li class="menuProperty">Large: $Seasonal</li>
+                            <li class="menuProperty">Seasonal: arm & a leg</li>
+                        </ol>
+                        <br>
+                    </ul>
+                </div>
+                <!-- menu 4 : DESERT -->
+                <div class="menuBox" id="desert">
+                    <h2 class="menu">DESERT</h2>
+                    <ul>
+                        <ol class="menuItem"> Fruit Salad
+                            <li class="menuProperty">Small: $8</li>
+                            <li class="menuProperty">Medium: $10</li>
+                            <li class="menuProperty">Large: $12</li>
+                            <li class="menuProperty">XL: $3</li>
+                        </ol>
+                        <br>
+                        <ol class="menuItem"> Pie
+                            <li class="menuProperty">Apple: $5</li>
+                            <li class="menuProperty">Cherry: $5</li>
+                            <li class="menuProperty">Berry: $5</li>
+                            <li class="menuProperty">Vegan: $50</li>
+                        </ol>
+                        <br>
+                        <ol class="menuItem"> IceCream
+                            <li class="menuProperty">Apple: $5</li>
+                            <li class="menuProperty">Cherry: $5</li>
+                            <li class="menuProperty">Berry: $5</li>
+                            <li class="menuProperty">Vegan: $50</li>
+                        </ol>
+                        <br>
+                        <ol class="menuItem"> Apertif
+                            <li class="menuProperty">Single: $5</li>
+                            <li class="menuProperty">Double: $10</li>
+                            <li class="menuProperty">Triple: $15</li>
+                            <li class="menuProperty">Moonshine: $50</li>
+                        </ol>
+                        <br>
+                        <ol class="menuItem"> Brownie
+                            <li class="menuProperty">Small: $5</li>
+                            <li class="menuProperty">Medium: $8</li>
+                            <li class="menuProperty">Large: $10</li>
+                            <li class="menuProperty">XL: $20</li>
+                        </ol>
+                        <br>
+                        <ol class="menuItem"> BirthdayCake
+                            <li class="menuProperty">Apple: $5</li>
+                            <li class="menuProperty">Cherry: $5</li>
+                            <li class="menuProperty">Berry: $5</li>
+                            <li class="menuProperty">Vegan: $50</li>
+                        </ol>
+                        <br>
+                    </ul>
+                </div>
+                <!-- menu 5 : BEVERAGES -->
+                <div class="menuBox" id="beverages">
+                    <h2 class="menu">BEVERAGES</h2>
+                    <ul>
+                        <ol class="menuItem">- Soda -
+                            <li class="menuProperty">Pepsi: $3</li>
+                            <li class="menuProperty">Coke: $3</li>
+                            <li class="menuProperty">RC Cola: $3</li>
+                            <li class="menuProperty">Dr. Pepper: $3</li>
+                        </ol>
+                        <br>
+                        <ol class="menuItem"> Milk
+                            <li class="menuProperty">Cow: $7</li>
+                            <li class="menuProperty">Oat: $8</li>
+                            <li class="menuProperty">Soy: $11</li>
+                            <li class="menuProperty">Almond: $20</li>
+                        </ol>
+                        <br>
+                        <ol class="menuItem"> Beer
+                            <li class="menuProperty">Budweiser: $5</li>
+                            <li class="menuProperty">BudLight: $5</li>
+                            <li class="menuProperty">Corona: $5</li>
+                            <li class="menuProperty">Corona light: $5</li>
+                        </ol>
+                        <br>
+                        <ol class="menuItem"> Juice
+                            <li class="menuProperty">Apple: $5</li>
+                            <li class="menuProperty">Cherry: $5</li>
+                            <li class="menuProperty">Berry: $5</li>
+                            <li class="menuProperty">Vegan: $50</li>
+                        </ol>
+                        <br>
+                        <ol class="menuItem"> Wine
+                            <li class="menuProperty">Chardonay: $15</li>
+                            <li class="menuProperty">Rose: $15</li>
+                            <li class="menuProperty">Burgondy: $15</li>
+                            <li class="menuProperty">Chateau Diana: $5</li>
+                        </ol>
+                        <br>
+                        <ol class="menuItem"> Cocktails
+                            <li class="menuProperty">Hurricane: $5</li>
+                            <li class="menuProperty">Martini: $5</li>
+                            <li class="menuProperty">Tequila Sunrise: $5</li>
+                            <li class="menuProperty">Longisland Iced Tea: $50</li>
+                        </ol>
+                        <br>
+                    </ul>
+                </div>
+                <!-- menu 6 : ENTREES -->
+                <div class="menuBox" id="entrees">
+                    <h2 class="menu">ENTREES</h2>
+                    <ul>
+                        <ol class="menuItem">- Spaghetti -
+                            <li class="menuProperty">Small: $7</li>
+                            <li class="menuProperty">Medium: $10</li>
+                            <li class="menuProperty">Large: $15</li>
+                            <li class="menuProperty">Family Size: $40</li>
+                        </ol>
+                        <br>
+                        <ol class="menuItem">- Tuna TarTar -
+                            <li class="menuProperty">Small: $7</li>
+                            <li class="menuProperty">Medium: $10</li>
+                            <li class="menuProperty">Large: $15</li>
+                            <li class="menuProperty">Family Size: $40</li>
+                        </ol>
+                        <br>
+                        <ol class="menuItem">- Sandwich -
+                            <li class="menuProperty">Italian: $13</li>
+                            <li class="menuProperty">Turkey Cheese: $12</li>
+                            <li class="menuProperty">Special: $15</li>
+                            <li class="menuProperty">cheeseSteak: $20</li>
+                        </ol>
+                        <br>
+                        <ol class="menuItem">- Sharkfin Soup -
+                            <li class="menuProperty">Small: $7</li>
+                            <li class="menuProperty">Medium: $10</li>
+                            <li class="menuProperty">Large: $15</li>
+                            <li class="menuProperty">Family Size: $40</li>
+                        </ol>
+                        <br>
+                        <ol class="menuItem">- Spam -
+                            <li class="menuProperty">Small: $7</li>
+                            <li class="menuProperty">Medium: $10</li>
+                            <li class="menuProperty">Large: $15</li>
+                            <li class="menuProperty">Family Size: $40</li>
+                        </ol>
+                        <br>
+                        <ol class="menuItem">- Hotdogs -
+                            <li class="menuProperty">Small: $7</li>
+                            <li class="menuProperty">Medium: $10</li>
+                            <li class="menuProperty">Large: $15</li>
+                            <li class="menuProperty">Family Size: $40</li>
+                        </ol>
+                    </ul>
+                </div>
+                <!-- menu 7 : APPETIZERS -->
+                <div class="menuBox" id="appetizers">
+                    <h2 class="menu">APPETIZERS</h2>
+                    <ul>
+                        <ol class="menuItem">- Tea -
+                            <li class="menuProperty">Small: $5</li>
+                            <li class="menuProperty">Medium: $8</li>
+                            <li class="menuProperty">Large: $11</li>
+                            <li class="menuProperty">Extra_egg: $2</li>
+                        </ol>
+                        <br>
+                        <ol class="menuItem"> Shrimp Cocktail
+                            <li class="menuProperty">Corn: $7</li>
+                            <li class="menuProperty">Blueberry: $8</li>
+                            <li class="menuProperty">Chocolate: $11</li>
+                            <li class="menuProperty">Gluten Free: $20</li>
+                        </ol>
+                        <br>
+                        <ol class="menuItem">- mozzarella sticks -
+                            <li class="menuProperty">Small: $7</li>
+                            <li class="menuProperty">Medium: $10</li>
+                            <li class="menuProperty">Large: $15</li>
+                            <li class="menuProperty">Family Size: $40</li>
+                        </ol>
+                        <br>
+                        <ol class="menuItem">- a whole pizza -
+                            <li class="menuProperty">Small: $7</li>
+                            <li class="menuProperty">Medium: $10</li>
+                            <li class="menuProperty">Large: $15</li>
+                            <li class="menuProperty">Family Size: $40</li>
+                        </ol>
+                        <br>
+                        <ol class="menuItem">- nachos -
+                            <li class="menuProperty">Small: $7</li>
+                            <li class="menuProperty">Medium: $10</li>
+                            <li class="menuProperty">Large: $15</li>
+                            <li class="menuProperty">Family Size: $40</li>
+                        </ol>
+                        <br>
+                        <ol class="menuItem">- chinese food -
+                            <li class="menuProperty">Small: $7</li>
+                            <li class="menuProperty">Medium: $10</li>
+                            <li class="menuProperty">Large: $15</li>
+                            <li class="menuProperty">Family Size: $40</li>
+                        </ol>
+                        <br>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- FOOTER - ALERGIES - TELL WAITER -->
+        <div class="footer">
+            <h2 class="rainbow">ALERGIES</h2>
+            <p> If you got alergies, you should prob eat somewhere else</p>
+            <button onclick="displaySpecials()" class="new">click to change title</button>
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
